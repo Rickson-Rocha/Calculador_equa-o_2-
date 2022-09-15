@@ -8,6 +8,21 @@
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-    
+    <section>
+        <h1>Calculador de raízes de equação do segundo grau</h1>
+      <form>
+        <label for="c_a">a:</label>
+        <input type="number" id="c_a" name="a">
+        <label for="c_b">b:</label>
+        <input type="number" id="c_b" name="b">
+        <label for="c_c">c:</label>
+        <input type="number" id="c_c" name="c">
+        <input type="button" value="calcular"  id="btn" 
+           onclick="principal()"> 
+      </form>
+      <p id="concavidade"></p>
+      <p id="resultado"></p>
+      <script src="script.js"></script>
+      </section>
 </body>
 </html>
